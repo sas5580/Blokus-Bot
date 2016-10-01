@@ -6,18 +6,16 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public class Board
+    class CurrentBlock
     {
-        private Grid[,] TheBoard = new Grid[14,14];
-        public Grid Status;
+        private Grid[] entry = new Grid[5];
 
-        private void AddtoBoard(Block entry)
+        
+        private void buildBlock()
         {
 
         }
 
 
     }
-
-
 }
