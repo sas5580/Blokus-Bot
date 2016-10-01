@@ -12,14 +12,17 @@ namespace BlokusBot
 {
     public partial class Interface : Form
     {
-        public CheckBox[] boxes =  new CheckBox[200];
         // temp vars
+        public CheckBox[] boxes = new CheckBox[196];
         public bool curPlayer = true;
-        public Color[,] boxColor = {{System.Drawing.Color.BurlyWood ,System.Drawing.Color.DarkOrange} , {System.Drawing.Color.Violet  ,System.Drawing.Color.DarkViolet}};
+        public Color[,] boxColor = {
+            {System.Drawing.Color.BurlyWood ,System.Drawing.Color.DarkOrange} , 
+            {System.Drawing.Color.Violet  ,System.Drawing.Color.DarkViolet}
+        };
 
         public Interface()
         {
-            InitializeComponent();            
+            InitializeComponent();
 
             // Get all boxes in one array
             foreach (Control c in this.Controls)
@@ -27,7 +30,7 @@ namespace BlokusBot
                 int ind=0;
                 if (c is CheckBox)
                 {
-                    boxes[ind++] = (CheckBox)c;
+                    boxes[ind++] = c as CheckBox;
                     boxes[ind-1].CheckedChanged += new System.EventHandler(this.checkBox_CheckedChanged);
                 }
             }
@@ -40,6 +43,11 @@ namespace BlokusBot
         private void btnConfirmMove_Click(object sender, EventArgs e)
         {
             //disables all checked boxes
+            foreach (CheckBox cb in boxes)
+            {
+                System.Console.WriteLine(cb);
+            }
+
             foreach (Control c in this.Controls)
             {
                 if ((c is CheckBox) && ((CheckBox) c).Checked)
