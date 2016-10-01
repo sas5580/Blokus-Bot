@@ -45,6 +45,7 @@
     <Compile Include="Board.cs" />
     <Compile Include="CurrentBlock.cs" />
     <Compile Include="Grid.cs" />
+    <Compile Include="library.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

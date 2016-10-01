@@ -19,10 +19,10 @@ namespace Engine
                 {
                     TheBoard[i, j].XLoc = i;
                     TheBoard[i, j].YLoc = j;
-                    if(i==)
                 }
             }
-
+            TheBoard[4, 4].IsStarter = true;
+            TheBoard[9, 9].IsStarter = true;
         }
 
         private void AddtoBoard(Block entry)

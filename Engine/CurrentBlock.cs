@@ -9,6 +9,7 @@ namespace Engine
     class CurrentBlock
     {
         private Grid[] entry = new Grid[5];
+        
 
         
         private void buildBlock()
@@ -16,6 +17,12 @@ namespace Engine
 
         }
 
+        public int IsValid()
+        {
+
+            return 1;
+            return 0;
+        }
 
     }
 }
