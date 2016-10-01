@@ -1,2 +1,3 @@
 C:\Users\Saswata\Documents\0_CODE\Projects\Blokus Bot\BlokusBot\BlokusBot\bin\Debug\BlokusBot.exe.config
 C:\Users\Saswata\Documents\0_CODE\Projects\BlokusBot\BlokusBot\bin\Debug\BlokusBot.exe.config
+G:\Projects\Blokus-Bot\BlokusBot\bin\Debug\BlokusBot.exe.config
