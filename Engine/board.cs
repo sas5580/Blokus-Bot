@@ -15,11 +15,11 @@ namespace Engine
         {
             for(int i = 0; i < 14; i++)
             {
-                for(int j=0; j<14l j++)
+                for(int j=0; j<14; j++)
                 {
                     TheBoard[i, j].XLoc = i;
                     TheBoard[i, j].YLoc = j;
-                    if(i==)
+                    //if(i==)
                 }
             }
 
@@ -29,9 +29,5 @@ namespace Engine
         {
 
         }
-
-
     }
-
-
 }

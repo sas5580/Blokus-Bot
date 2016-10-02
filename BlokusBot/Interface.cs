@@ -25,9 +25,9 @@ namespace BlokusBot
             InitializeComponent();
 
             // Get all boxes in one array
+            int ind = 0;
             foreach (Control c in this.Controls)
-            {
-                int ind=0;
+            {                
                 if (c is CheckBox)
                 {
                     boxes[ind++] = c as CheckBox;
@@ -45,16 +45,11 @@ namespace BlokusBot
             //disables all checked boxes
             foreach (CheckBox cb in boxes)
             {
-                System.Console.WriteLine(cb);
-            }
-
-            foreach (Control c in this.Controls)
-            {
-                if ((c is CheckBox) && ((CheckBox) c).Checked)
+                if (cb.Checked)
                 {
-                    c.BackColor = boxColor[(curPlayer ? 0 : 1), 1];
-                    c.Enabled = false;
-                    ((CheckBox) c).Checked = false;
+                    cb.BackColor = boxColor[(curPlayer ? 0 : 1), 1];
+                    cb.Enabled = false;
+                    cb.Checked = false;
                 }
             }
             //updates player turn label

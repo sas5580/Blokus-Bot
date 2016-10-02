@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlokusBot", "BlokusBot\BlokusBot.csproj", "{22E0FDCD-1A67-478C-A91F-528E01200D97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{06B011A5-77B1-4C56-881B-8C9131B1FD3D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{D06D3883-77A2-4D1C-BA00-81421213EDE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{22E0FDCD-1A67-478C-A91F-528E01200D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22E0FDCD-1A67-478C-A91F-528E01200D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22E0FDCD-1A67-478C-A91F-528E01200D97}.Release|Any CPU.Build.0 = Release|Any CPU
-		{06B011A5-77B1-4C56-881B-8C9131B1FD3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06B011A5-77B1-4C56-881B-8C9131B1FD3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06B011A5-77B1-4C56-881B-8C9131B1FD3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06B011A5-77B1-4C56-881B-8C9131B1FD3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D06D3883-77A2-4D1C-BA00-81421213EDE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D06D3883-77A2-4D1C-BA00-81421213EDE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D06D3883-77A2-4D1C-BA00-81421213EDE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D06D3883-77A2-4D1C-BA00-81421213EDE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
